@@ -1,0 +1,101 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, button{
+  font-family: 'Helvetica Neue', arial, sans-serif;
+}
+
+.controls{
+    color: #767e9e;
+    margin-left: 37px;
+    margin-top: -20px;
+    padding-bottom: 15px; 
+    padding-top:3%;
+    text-align:center; 
+}
+
+
+button{
+  display: inline-block;
+  padding: .4em .8em;
+    background:#303441;
+  border: 0;
+    color:#767e9e;
+  font-size: 12px;
+  font-weight: 300;
+    border: 1px solid #dedede;  
+  cursor: pointer;
+    margin-left: 7px;  
+}
+
+button.active{
+    background:#dedede;
+}
+
+button:focus{
+  outline: 0 none;
+}
+
+.container-1{
+  padding: 2% 2% 0;
+  text-align: justify;
+  font-size: 0.1px;
+  background:;
+margin-left: 22px;
+
+  
+  -webkit-backface-visibility: hidden;
+}
+
+.container-1:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container-1 .mix,
+.container-1 .gap{
+  display: inline-block;
+  width: 21.5%;
+}
+
+.container-1 .mix{
+  text-align: left;
+  background: ;
+  margin-bottom: 2%;
+  display: none;
+}
+
+
+.container-1 .mix:after{
+  content: attr(data-myorder);
+  color: white;
+
+  display: inline-block;
+  vertical-align: top;
+  padding: 4% 6%;
+
+}
+.container-1 .mix:before{
+  content: '';
+  display: inline-block;
+  padding-top: 30%;
+     margin-top: -62px;
+}
+
+@media all and (min-width: 420px){
+  .container-1 .mix,
+  .container-1 .gap{
+    width: 32%;
+  }
+}
+
+@media all and (min-width: 640px){
+  .container-1 .mix,
+  .container-1 .gap{
+    width: 21.5%;
+  }
+}

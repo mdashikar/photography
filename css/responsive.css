@@ -1,0 +1,61 @@
+@media only screen and (max-width: 992px) {
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    main {
+        ~padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-wrapper {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    main {
+        ~padding-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .main-wrapper {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    main {
+        ~padding-top: 90px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .main-wrapper {
+        margin-left: 9%;
+        margin-right: 9%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #our-menu-parallax{
+		height:194px;
+		
+	}
+	.menu{
+		top:-110px;
+	}
+}
+
+
+
+
+
+
+
+
+

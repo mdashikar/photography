@@ -1,0 +1,105 @@
+html, body, .view_1{
+    height: 100%;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+}
+nav{
+    line-height: 4rem;
+    font-size: 20px;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+.view_1 {
+    background: rgba(0, 0, 0, 0) url("http://mdbootstrap.com/images/regular/people/img%20(45).jpg") no-repeat fixed center center / cover ;
+}
+.view_1 {
+    cursor: default;
+    overflow: hidden;
+    position: relative;
+}
+.full-bg-img h1 {
+    color: #fff;
+    letter-spacing: 30px;
+}
+.full-bg-img h5 {
+    color: #8da2a2;
+    letter-spacing: 8px;
+    margin-top: 50px;
+}
+.head h2{text-align: center; padding-top: 3.5%;}
+.heading h4{color: #8da2a2; letter-spacing: 8px; margin: 60px; text-align: center;}
+.view_2{
+    height: 100%;
+    background: url("http://mdbootstrap.com/images/regular/people/img%20(54).jpg")no-repeat fixed center center / cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.view_2 {
+    cursor: default;
+    overflow: hidden;
+    position: relative;
+}
+.full-bg-img { position: relative}
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view_2 {
+        height: auto;
+        position: relative;
+    }
+}
+.contact-section{padding: 0; margin: 0; padding-top: 15px;}
+.description {
+    padding-top: 25%;
+    padding-bottom: 3rem;
+    color: #fff
+}
+.columnn{padding-top: 10%; padding-bottom: 10%;}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+}
+
+.content-section img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.article-section {color: #9c9c9c;}
+.article-section h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    color: #181818;
+}
+.article-section, three{ padding-top: 4%}
+.article-section .four{ padding-top: 6%}
+.footeer{padding-top: 0px;}
